@@ -1,11 +1,11 @@
-Repository contains example of returing Multipart response. 
-It is really rare case used in web-services. 
+Repository contains example how to return Multipart response in Spring Web MVC.
+It is really rare, but sometime occurs in web-services. 
 
-The key idea that we can use Mulitpart client library to generate response. 
-Example use [httmime](https://hc.apache.org/httpcomponents-client-4.5.x/current/httpmime/apidocs/) library, 
-which is part of Apache http client.
+The key idea that we can use a Mulitpart client library to generate the response. 
+This example uses [httmime](https://hc.apache.org/httpcomponents-client-4.5.x/current/httpmime/apidocs/) library, 
+which is the part of Apache http client.
 
-Example is based on next articles and examples:
+Useful links:
 *  [rfc1341](https://www.w3.org/Protocols/rfc1341/7_2_Multipart.html) - 7.2 Multipart
 *  [httpmime example](https://github.com/apache/httpcomponents-client/blob/master/httpclient5/src/test/java/org/apache/hc/client5/http/examples/ClientMultipartFormPost.java) - see for more complex usage, like adding binary 
 
